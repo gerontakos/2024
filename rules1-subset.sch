@@ -1,5 +1,4 @@
-<sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
     <sch:ns uri="http://marklogic.com/xdmp/json/basic" prefix="mlj"/>
     <sch:pattern id="user-top_level">
         <sch:rule context="/mlj:json">
